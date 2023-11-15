@@ -10,6 +10,8 @@ const UserForm = ({ onUserAdd }) => {
       name,
       email,
     });
+    setEmail("");
+    setName("");
     console.log(name, email);
   };
 
